@@ -9,10 +9,10 @@ const app = new Vue ({
     },
     mounted(){
         axios
-        .get('disk.php')
+        .get('album.php')
         .then((result)=>{
-            console.log(result.data)
-            this.containerMusic = result.data
+            console.log(result)
+            this.discMusic = result.data
         })
     }
 })

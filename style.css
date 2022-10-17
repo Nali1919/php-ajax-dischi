@@ -1,0 +1,33 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    text-align: center;
+    height: 350px;
+    background-color: hsl(210deg 22% 23%);
+    color: white;
+    align-items: center;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+.box-card {
+    width: 150px;
+    height: 150px;
+
+
+}

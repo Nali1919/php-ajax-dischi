@@ -1,6 +1,6 @@
 <?php
 
-$discs = [
+$albums = [
     [
         'title' => 'New Jersey',
         'author' => 'Bon Jovi',
@@ -45,10 +45,7 @@ $discs = [
     ]
 ];
 
-// foreach($discs as $musicDiscs){
-//     echo $musicDiscs['title'];
-// };
 
 header('Content-Type: application/json');
 
-    echo json_encode($discs);
+echo json_encode($albums);
